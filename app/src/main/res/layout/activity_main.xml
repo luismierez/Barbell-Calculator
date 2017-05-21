@@ -19,124 +19,6 @@
         android:layout_marginTop="16dp"
         app:layout_constraintHorizontal_bias="0.502" />
 
-    <Button
-        android:id="@+id/add45"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="+45"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/totalWeight" />
-
-    <Button
-        android:id="@+id/add35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="+35"
-        app:layout_constraintStart_toEndOf="@+id/add45"
-        android:layout_marginStart="8dp"
-        app:layout_constraintTop_toTopOf="@+id/add45"
-        android:layout_marginTop="0dp" />
-
-    <Button
-        android:id="@+id/add25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="+25"
-        app:layout_constraintStart_toStartOf="@+id/add45"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/add45" />
-
-    <Button
-        android:id="@+id/add10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="+10"
-        app:layout_constraintStart_toEndOf="@+id/add25"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/add35" />
-
-    <Button
-        android:id="@+id/add5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="+5"
-        app:layout_constraintStart_toStartOf="@+id/add25"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/add25" />
-
-    <Button
-        android:id="@+id/addHalf5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="+2.5"
-        app:layout_constraintStart_toEndOf="@+id/add5"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/add10" />
-
-    <Button
-        android:id="@+id/remove45"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-45"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintTop_toBottomOf="@+id/add5" />
-
-    <Button
-        android:id="@+id/remove35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-35"
-        app:layout_constraintStart_toEndOf="@+id/remove45"
-        android:layout_marginStart="8dp"
-        app:layout_constraintTop_toTopOf="@+id/remove45"
-        android:layout_marginTop="0dp" />
-
-    <Button
-        android:id="@+id/remove25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-25"
-        app:layout_constraintStart_toStartOf="@+id/remove45"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/remove45" />
-
-    <Button
-        android:id="@+id/remove10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-10"
-        app:layout_constraintStart_toEndOf="@+id/remove25"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/remove35" />
-
-    <Button
-        android:id="@+id/remove5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-5"
-        app:layout_constraintStart_toStartOf="@+id/remove25"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/remove25" />
-
-    <Button
-        android:id="@+id/removeHalf5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-2.5"
-        app:layout_constraintStart_toEndOf="@+id/remove5"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/remove10" />
-
     <TextView
         android:id="@+id/numPlates"
         android:layout_width="wrap_content"
@@ -145,11 +27,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/totalWeight"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintStart_toEndOf="@+id/add35"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/add10" />
+        android:layout_marginEnd="8dp" />
 
     <TextView
         android:id="@+id/numPlate45Label"
